@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter The Vaccination Records</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color:white
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+        }
+
+        form {
+            background-color: white;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h2>Enter The Vaccination Records</h2>
+
+    <form action="result.jsp" method="post">
+
+        Child Name:
+        <input type="text" name="child" required>
+
+        <br><br>
+
+        Vaccine:
+        <input type="text" name="vaccine" required>
+
+        <br><br>
+
+        Date:
+        <input type="text" name="date" required>
+
+        <br><br>
+
+        Hospital:
+        <input type="text" name="hospital" required>
+
+        <input type="submit" value="Save">
+        </form>
+        </body>
+</html>
+
+
+
